@@ -27,7 +27,7 @@ const CategoriesBar = () => {
 const StyledCategoryBar = styled.div`
   width: 100%;
   min-height: 5vh;
-  background-color: #fbfbf8;
+  background-color:  #488d8a;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-wrap: wrap;
@@ -36,7 +36,7 @@ const StyledCategoryBar = styled.div`
   a {
     padding: 0;
     padding-right: 2rem;
-    color: #666;
+    color: #FFFF;
     cursor: pointer;
     font-size: 0.8rem;
 
@@ -53,6 +53,7 @@ const StyledCategoryBar = styled.div`
       a {
         font-size: 0.7rem;
         padding-right: 1rem;
+        color: #FFFFFF;
       }
     }
   }

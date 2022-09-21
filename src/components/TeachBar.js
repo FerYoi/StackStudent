@@ -8,14 +8,13 @@ const TeachBar = () => {
     <StyledTeachBar>
       <ContentBar>
         <div className='left-content'>
-          <h4>Teach the world online</h4>
+          <h4>Muestra lo que sabes</h4>
           <p>
-            Create an online video course, reach students across the globe, and
-            earn money
+            Comparte tu conocimiento con los demás..
           </p>
         </div>
         <div className='right-content'>
-          <Link href='#'>Teach on Udemy</Link>
+          <Link href='#'>Comparte en UTN</Link>
         </div>
       </ContentBar>
     </StyledTeachBar>

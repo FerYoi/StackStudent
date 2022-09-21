@@ -13,8 +13,8 @@ const BrandsBar = () => {
       <ContentBar>
         <div className='left-content'>
           <h4>
-            Compañias líderes en tecnologías <a href='#'>Udemy for Business </a>
-            to build in-demand career skills.
+            Compañias líderes en tecnologías <a href='#'>Comparte UTN </a>
+            Crea y mejora tus habilidades.
           </h4>
         </div>
         <div className='right-content'>

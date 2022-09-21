@@ -26,7 +26,7 @@ const App = () => {
         <NotificationHeader
           contentBold='Aprende lo nuevo en UTN Tuts'
           contentLight='Busca y toma la información que necesitas'
-          bgColor='#8ed1dc'
+          bgColor='#488d8a'
         />
         <TopBar />
         <CategoriesBar />

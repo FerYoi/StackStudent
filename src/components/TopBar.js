@@ -13,7 +13,6 @@ const TopBar = () => {
       <span className='search'>
         <SearchBar />
       </span>
-
       <span className='top-links'>
         <a href='#'>UTN Profesores</a>
       </span>
@@ -55,8 +54,8 @@ const StyledTopBar = styled.div`
   border-bottom: 1px solid #ddd;
 
   span {
-    flex: 3;
-    color: #666;
+    flex: 4;
+    color: #1b3bdf;
     text-align: center;
   }
 
@@ -75,7 +74,7 @@ const StyledTopBar = styled.div`
     font-weight: bold;
     margin-right: 1rem;
     a {
-      background: #666;
+      background: #1b3bdf;
       border-radius: 50%;
       width: 2rem;
       height: 2rem;

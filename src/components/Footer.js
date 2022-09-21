@@ -65,11 +65,11 @@ const StyledFooter = styled.div`
       display: block;
       text-decoration: none;
       padding-bottom: 1rem;
-      color: #0f7c90;
+      color: #1b3bdf;
       font-size: 0.82rem;
 
       &:hover {
-        color: #004450;
+        color: #1b3bdf;
       }
     }
   }

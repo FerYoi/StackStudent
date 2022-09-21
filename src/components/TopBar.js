@@ -8,20 +8,20 @@ const TopBar = () => {
     <StyledTopBar>
       <Logo className='bar-logo' width='2rem' />
       <span>
-        <a href='#'>Categories</a>
+        <a href='#'>Categorias</a>
       </span>
       <span className='search'>
         <SearchBar />
       </span>
 
       <span className='top-links'>
-        <a href='#'>Udemy for Business</a>
+        <a href='#'>UTN Profesores</a>
       </span>
       <span className='top-links'>
-        <a href='#'>Teach on Udemy</a>
+        <a href='#'>Comparte</a>
       </span>
       <span className='top-links'>
-        <a href='#'>My learning</a>
+        <a href='#'>Mi cuenta</a>
       </span>
       <span className='bar-icon'>
         <a href='#'>
@@ -39,7 +39,7 @@ const TopBar = () => {
         </a>
       </span>
       <span className='bar-icon profile'>
-        <a href='#'>SS</a>
+        <a href='#'>LF</a>
       </span>
     </StyledTopBar>
   );

@@ -10,9 +10,9 @@ import CurrentLearningCard from "./CurrentLearningCard";
 const CurrentLearning = () => {
   const currentLearningContents = [
     {
-      courseTitle: "Make a Responsive Portfolio Website : JavaScript  HTML CSS",
-      lectureTitle: "2. How website looks like",
-      duration: "12m",
+      courseTitle: "Crea tu Portafolio en un Website : JavaScript  HTML CSS",
+      lectureTitle: "2. como se ve tu website?",
+      duration: "8m",
       img: thumb1,
     },
     {
@@ -32,8 +32,8 @@ const CurrentLearning = () => {
     <Container>
       <StyledCurrentLearning>
         <div className='current-learning-header'>
-          <h4>Let's start learning, Sujanth</h4>
-          <a href='#'>My learning</a>
+          <h4>Adelante, sin miedo al exito</h4>
+          <a href='#'>Mi cuenta</a>
         </div>
         <div className='current-learning-cards'>
           {currentLearningContents.map((learningContent) => {

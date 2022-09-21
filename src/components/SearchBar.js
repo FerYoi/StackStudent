@@ -4,7 +4,7 @@ const SearchBar = () => {
   return (
     <StyledSearch>
       <i class='fas fa-search'></i>{" "}
-      <input type='text' placeholder='Search for anything' />
+      <input type='text' placeholder='Busca lo que quieras' />
     </StyledSearch>
   );
 };

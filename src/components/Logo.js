@@ -1,4 +1,4 @@
-import LogoImg from "../img/udemy-2-logo.png";
+import LogoImg from "../img/utn-logo.png";
 
 import styled from "styled-components";
 

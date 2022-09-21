@@ -8,35 +8,35 @@ const Footer = () => {
       <div className='footer-links'>
         <div className='links-left'>
           <div className='main-links'>
-            <a href='#'>Udemy for Business</a>
-            <a href='#'>Teach on Udemy</a>
-            <a href='#'>Get the app</a>
-            <a href='#'>About Us</a>
-            <a href='#'>Contact us</a>
+            <a href='#'>UTN Inicio</a>
+            <a href='#'>Aporta tu conocimiento</a>
+            <a href='#'>Consigue nuestra APP</a>
+            <a href='#'>Sobre Nosotros</a>
+            <a href='#'>Contactanos</a>
           </div>
           <div className='support-links'>
-            <a href='#'>Careers</a>
+            <a href='#'>Carreras</a>
             <a href='#'>Blog</a>
-            <a href='#'>Help and Support</a>
-            <a href='#'>Affiliate</a>
+            <a href='#'>Dudas y quejas</a>
+            <a href='#'>Unirte a la comunidad</a>
           </div>
           <div className='terms-links'>
-            <a href='#'>Terms</a>
-            <a href='#'>Privacy Policy</a>
-            <a href='#'>Sitemap</a>
-            <a href='#'>Featured Courses</a>
+            <a href='#'>Terminos</a>
+            <a href='#'>Políticas de Privacidad</a>
+            <a href='#'>Mapa del sitio</a>
+            <a href='#'>Novedades</a>
           </div>
         </div>
         <div className='links-right'>
           <a href='#' className='language-link'>
-            <i class='fas fa-globe'></i> English
+            <i class='fas fa-globe'></i> Español
           </a>
         </div>
       </div>
 
       <div className='copy-right'>
         <img src={LogoImg} alt='Logo' className='logo' />
-        <p>&copy; 2021 Udemy, Inc.</p>
+        <p>&copy; 2022 Hertec__utn.edu.mx</p>
       </div>
     </StyledFooter>
   );

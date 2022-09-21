@@ -2,16 +2,16 @@ import styled from "styled-components";
 
 const CategoriesBar = () => {
   const categories = [
-    "Development",
-    "Business",
-    "Finance & Accounting",
+    "Análisis",
+    "Networking",
+    "Base de datos",
     "IT & Software",
-    "Office Productivity",
-    "Personal Development",
-    "Design",
-    "Marketing",
-    "Health & Fitness",
-    "Music",
+    "DevOps",
+    "Desarrollo Móvil",
+    "Desarrollo Web",
+    "U/X",
+    "Programación",
+    "Algo mas...",
   ];
   return (
     <StyledCategoryBar>

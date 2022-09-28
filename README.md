@@ -1,4 +1,4 @@
-# React - UTN Tutorias - 2022
+# React - StackStudent
 
 This project developed to practise React JS, HTML,CSS skills
 

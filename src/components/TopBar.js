@@ -8,16 +8,16 @@ const TopBar = () => {
     <StyledTopBar>
       <Logo className='bar-logo' width='2rem' />
       <span>
-        <a href='#'>Categorias</a>
+        <a href='http://www.utn.edu.mx/slider/file/convocatoria_tsu_2023_1.pdf'>Convocatorias</a>
       </span>
       <span className='search'>
         <SearchBar />
       </span>
       <span className='top-links'>
-        <a href='#'>UTN Profesores</a>
+        <a href='http://siienet.utn.edu.mx/paginas/alumnos/inicioalumnos.html'>Alumnos</a>
       </span>
       <span className='top-links'>
-        <a href='#'>Comparte</a>
+        <a href='http://www.utn.edu.mx/'>UTN</a>
       </span>
       <span className='top-links'>
         <a href='#'>Mi cuenta</a>

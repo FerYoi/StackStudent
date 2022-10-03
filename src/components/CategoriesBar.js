@@ -2,16 +2,7 @@ import styled from "styled-components";
 
 const CategoriesBar = () => {
   const categories = [
-    "Análisis",
-    "Networking",
-    "Base de datos",
-    "IT & Software",
-    "DevOps",
-    "Desarrollo Móvil",
-    "Desarrollo Web",
-    "U/X",
-    "Programación",
-    "Algo mas...",
+    "Log in",
   ];
   return (
     <StyledCategoryBar>

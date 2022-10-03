@@ -8,35 +8,18 @@ const Footer = () => {
       <div className='footer-links'>
         <div className='links-left'>
           <div className='main-links'>
-            <a href='#'>UTN Inicio</a>
-            <a href='#'>Aporta tu conocimiento</a>
-            <a href='#'>Consigue nuestra APP</a>
-            <a href='#'>Sobre Nosotros</a>
-            <a href='#'>Contactanos</a>
+            <a href='http://www.utn.edu.mx/'>UTN Inicio</a>
+            <a href='http://siienet.utn.edu.mx/paginas/alumnos/frminiciosesionalumno.php'>SIENET</a>
+            <a href='https://es-la.facebook.com/OficialUTN/'>Facebook UTN</a>
+            <a href='http://www.utn.edu.mx/acerca_de_la_utn/index.html'>Acerca de la UTN</a>
           </div>
-          <div className='support-links'>
-            <a href='#'>Carreras</a>
-            <a href='#'>Blog</a>
-            <a href='#'>Dudas y quejas</a>
-            <a href='#'>Unirte a la comunidad</a>
-          </div>
-          <div className='terms-links'>
-            <a href='#'>Terminos</a>
-            <a href='#'>Políticas de Privacidad</a>
-            <a href='#'>Mapa del sitio</a>
-            <a href='#'>Novedades</a>
-          </div>
-        </div>
-        <div className='links-right'>
-          <a href='#' className='language-link'>
-            <i class='fas fa-globe'></i> Español
-          </a>
+       
         </div>
       </div>
 
       <div className='copy-right'>
         <img src={LogoImg} alt='Logo' className='logo' />
-        <p>&copy; 2022 Hertec__utn.edu.mx</p>
+        <p>&copy; 2022 Hertec</p>
       </div>
     </StyledFooter>
   );

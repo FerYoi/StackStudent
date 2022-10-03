@@ -11,10 +11,10 @@ const Hero = () => {
         <div className='hero-content'>
           <ContentCard>
             <h3>
-              Camino<br />Ninja
+              Stack Student
             </h3>
-            <p>Armas, sables, artes marciales.</p>
-            <p>se un Maestro Ninja</p>
+            <p>Material para tu crecimiento.</p>
+         
           </ContentCard>
         </div>
       </StyledHero>

@@ -1,18 +1,18 @@
 import styled from "styled-components";
 import { Container } from "../styles";
 
-import thumb1 from "../img/current-learning-1.jpg";
-import thumb2 from "../img/current-learning-2.jpg";
-import thumb3 from "../img/current-learning-3.jpg";
+import thumb1 from "../img/posgrado.jpg";
+import thumb2 from "../img/tsu.jpg";
+import thumb3 from "../img/inscripcion.jpg";
 
 import CurrentLearningCard from "./CurrentLearningCard";
 
 const CurrentLearning = () => {
   const currentLearningContents = [
     {
-      courseTitle: "Crea tu Portafolio en un Website : JavaScript  HTML CSS",
-      lectureTitle: "2. como se ve tu website?",
-      duration: "8m",
+      courseTitle: "Revisa la convocatoria para Posgrado",
+      lectureTitle: "COnvocatoria",
+      duration: "",
       img: thumb1,
     },
     {
@@ -32,7 +32,7 @@ const CurrentLearning = () => {
     <Container>
       <StyledCurrentLearning>
         <div className='current-learning-header'>
-          <h4>Adelante, sin miedo al exito</h4>
+          <h4>Es sin miedo al Exito</h4>
           <a href='#'>Mi cuenta</a>
         </div>
         <div className='current-learning-cards'>
@@ -40,8 +40,7 @@ const CurrentLearning = () => {
             return (
               <CurrentLearningCard
                 courseTitle={learningContent.courseTitle}
-                lectureTitle={learningContent.lectureTitle}
-                duration={learningContent.duration}
+                
                 thumbnail={learningContent.img}
               />
             );

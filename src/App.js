@@ -8,7 +8,7 @@ import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import GlobalStyle from "./components/GlobalStyle";
 import LearningNext from "./components/LearningNext";
-import EnrolledSuggestions from "./components/EnrolledSuggestions";
+
 
 
 const App = () => {
@@ -17,7 +17,7 @@ const App = () => {
       <header>
         <GlobalStyle />
         <NotificationHeader
-          contentBold='Universidad Tecnológica de Nezahualcóyotl'
+          contentBold='Bienvenido a StackStudent'
           bgColor='#488d8a'
         />
         <TopBar />

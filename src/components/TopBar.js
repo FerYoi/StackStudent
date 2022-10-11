@@ -1,5 +1,5 @@
 import Logo from "./Logo";
-import SearchBar from "./SearchBar";
+
 
 import styled from "styled-components";
 
@@ -10,17 +10,14 @@ const TopBar = () => {
       <span>
         <a href='http://www.utn.edu.mx/slider/file/convocatoria_tsu_2023_1.pdf'>Convocatorias</a>
       </span>
-      <span className='search'>
-        <SearchBar />
-      </span>
-      <span className='top-links'>
+     <span className='top-links'>
         <a href='http://siienet.utn.edu.mx/paginas/alumnos/inicioalumnos.html'>Alumnos</a>
       </span>
       <span className='top-links'>
         <a href='http://www.utn.edu.mx/'>UTN</a>
       </span>
       <span className='top-links'>
-        <a href='#'>Mi cuenta</a>
+        <a href='https://stackblog.netlify.app/'>Blog</a>
       </span>
       <span className='bar-icon'>
         <a href='#'>
